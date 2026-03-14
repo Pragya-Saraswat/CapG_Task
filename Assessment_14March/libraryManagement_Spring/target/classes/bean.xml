@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"> <!-- bean definitions here -->
+
+
+<!--    <bean id="b" class="com.cg.bean.Book">-->
+<!--        <property name="bookId" value="111"></property>-->
+<!--        <property name="title" value="Spring Framework"></property>-->
+<!--        <property name="author" value="Rod Johnson"></property>-->
+<!--    </bean>-->
+
+<!--    <bean id="l" class="com.cg.bean.Librarian">-->
+<!--        <property name="name" value="Amit"></property>-->
+<!--        <property name="book" ref="b"></property>-->
+<!--    </bean>-->
+
+    <bean id="b" class="com.cg.bean.Book">
+        <constructor-arg name="bookId" value="111"></constructor-arg>
+        <constructor-arg name="title" value="Spring Framework"></constructor-arg>
+        <constructor-arg name="author" value="Rod Johnson"></constructor-arg>
+    </bean>
+
+    <bean id="l" class="com.cg.bean.Librarian">
+        <constructor-arg name="name" value="Amit"></constructor-arg>
+        <constructor-arg name="book" ref="b"></constructor-arg>
+    </bean>
+</beans>
