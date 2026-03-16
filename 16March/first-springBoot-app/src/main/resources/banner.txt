@@ -1,0 +1,13 @@
+${AnsiColor.BRIGHT_BLUE}
+   _____             _
+  / ____|           (_)
+ | (___  _ __  _ __  _ _ __
+  \___ \| '_ \| '_ \| | '_ \
+  ____) | |_) | |_) | | | | |
+ |_____/| .__/| .__/|_|_| |_|
+        | |   | |
+        |_|   |_|
+
+${AnsiColor.BRIGHT_YELLOW}
+      My Spring Boot App
+${AnsiColor.DEFAULT}
